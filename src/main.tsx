@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Html5QrCode from './Html5QrCode.tsx'
 import ZxingScanner from './ZxingScanner.tsx'
+import ScanbotSdkScanner from './ScanbotSdkScanner.tsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: '/react-zxing',
         element: <ZxingScanner />
+      },
+      {
+        path: '/scanbot-sdk',
+        element: <ScanbotSdkScanner />
       }
     ],
   },
