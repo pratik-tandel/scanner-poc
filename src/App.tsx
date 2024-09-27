@@ -8,6 +8,7 @@ function App() {
       <div>
         <Link to="/html5-qrcode" className="link">Html5 QrCode</Link>
         <Link to="/react-zxing" className="link">React ZXing</Link>
+        <Link to="/scanbot-sdk" className="link">Scanbot Sdk</Link>
       </div>
       <Outlet />
     </div>
