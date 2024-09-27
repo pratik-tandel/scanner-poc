@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import './App.css';
-import Html5QrcodePlugin from './components/Html5QrcodePlugin';
+import '../App.css';
+import Html5QrcodePlugin from './Html5QrcodePlugin';
 
 function Html5QrCode() {
     const [result, setResult] = useState();
